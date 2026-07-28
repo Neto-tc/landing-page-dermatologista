@@ -1,0 +1,91 @@
+Aqui está o código HTML atualizado com o link do Google Maps que você forneceu.
+
+Basta copiar e substituir o arquivo anterior:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Diogo Carrijo | Dermatologista</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { color: #333; line-height: 1.6; background-color: #f9f9f9; }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), white; padding: 80px 20px; text-align: center; border-bottom: 5px solid #25d366; }
+        .hero h1 { font-size: 2.5rem; color: #2c3e50; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; color: #555; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .btn { display: inline-block; padding: 18px 35px; background: #25d366; color: white; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.1rem; transition: background 0.3s; }
+        .btn:hover { background: #128c7e; }
+        
+        /* Seções */
+        section { padding: 60px 20px; max-width: 900px; margin: auto; }
+        h2 { text-align: center; margin-bottom: 40px; color: #2c3e50; font-size: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { padding: 30px; background: #fff; border-radius: 10px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .card h3 { margin-bottom: 15px; color: #2c3e50; }
+        
+        /* Contato/Mapa */
+        .map-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .map-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+        
+        footer { text-align: center; padding: 40px; background: #2c3e50; color: white; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <!-- Hero -->
+    <header class="hero">
+        <h1>Dr. Diogo Carrijo</h1>
+        <p>Dermatologia com ciência, segurança e resultados naturais. Cuidado especializado para a saúde da sua pele.</p>
+        <a href="https://wa.me/5534992052520" class="btn" target="_blank">Agendar Consulta via WhatsApp</a>
+    </header>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <h2>Sobre o Especialista</h2>
+        <p>A dermatologia trata tanto da saúde visível da pele quanto do bem-estar interno. No consultório, oferecemos um atendimento pautado em diagnósticos precisos, escuta ativa e as técnicas mais modernas do mercado para tratamentos clínicos e estéticos.</p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Dermatologia Clínica</h3>
+                <p>Diagnóstico e tratamento de doenças da pele, pelos e unhas.</p>
+            </div>
+            <div class="card">
+                <h3>Estética Avançada</h3>
+                <p>Procedimentos focados em beleza natural e rejuvenescimento.</p>
+            </div>
+            <div class="card">
+                <h3>Cirurgia Dermatológica</h3>
+                <p>Cirurgias seguras e acompanhamento especializado.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="contato">
+        <h2>Localização</h2>
+        <div class="map-container">
+            <!-- Link atualizado do Google Maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.1751141380965!2d-48.2721227!3d-18.9477503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4450321f0b9dd%3A0x57aff6096533be44!2sDiogo%20Carrijo%20Dermatologista!5e0!3m2!1spt-BR!2sbr!4v1722200000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p style="text-align: center; margin-top: 15px;">
+            <a href="https://maps.app.goo.gl/ENJ43rYdj5W7gGdY8" target="_blank" style="color: #25d366; font-weight: bold;">Abrir no Google Maps</a>
+        </p>
+    </section>
+
+    <footer>
+        <p><strong>Dr. Diogo Carrijo</strong></p>
+        <p>CRM 73468 | RQE 102360</p>
+        <p>Dermatologista</p>
+    </footer>
+
+</body>
+</html>
+```
